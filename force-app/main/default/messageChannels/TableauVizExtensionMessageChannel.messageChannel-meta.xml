@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A message channel used to communicate with the Tableau Viz Extension component.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <fieldName>parameters</fieldName>
+        <description>A map of Tableau parameters</description>
+    </lightningMessageFields>
+    <masterLabel>TableauVizExtensionMessageChannel</masterLabel>
+</LightningMessageChannel>
