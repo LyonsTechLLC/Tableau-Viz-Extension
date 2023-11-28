@@ -4,16 +4,12 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightning__AppPage</target>
-    </targets>
-    <targets>
-        <target>lightning__AppPage</target>
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
-        <target>lightningCommunity__Page</target>
         <target>lightningCommunity__Default</target>
     </targets>
     <targetConfigs>
-        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage,lightningCommunity__Page,lightningCommunity__Default">
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage,lightningCommunity__Default">
             <property
                 name="vizUrl"
                 type="String"
